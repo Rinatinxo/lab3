@@ -1,0 +1,47 @@
+/* Element selectors;
+Class selectors;
+Attribute selectors;
+ID selectors.
+Pseudo-class selectors. */
+
+/* ID selector
+font and background colors;
+font family and size;
+margin, padding and borders; 
+text-alignment*/
+
+#main-heading {
+  background-color: green;
+  color: white;
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  margin-bottom: 40px;
+  padding: 10px;
+  border: 5px solid black;
+  text-align: center;
+}
+
+/* image sizes (width and height); */
+#submission img {
+  height: 200px;
+  width: 200px;
+}
+
+/* Class selector */
+.aside_content {
+  background-color: yellow;
+}
+
+/* Element selector */
+h2 {
+  font-size: 36px;
+}
+
+.menu {
+  list-style: none;
+}
+
+a[href="#"] {
+  background-color: yellow;
+}
